@@ -15,7 +15,8 @@ public class Main {
         }
     }
 
-    static void returnReversArray() {
+    static void Numer()
+         {
         int temp;
         for (int i = Nume.length - 1, j = 0; i >= Nume.length / 2; i--, j++) {
             temp = Nume[j];
@@ -32,7 +33,7 @@ public class Main {
 
         }
         System.out.print("\nИсправленный вариант массива: ");
-        returnReversArray();
+        Numer();
 
         for (int core : Nume) {
             System.out.print(core + " ");
